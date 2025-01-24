@@ -1,0 +1,60 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    font-family: "Darker Grotesque", serif;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.nav-list{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 150px;
+}
+.app-store{
+    width: 50px;
+}
+.download-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    border-radius: 50px;
+    background: #afe274;
+    box-shadow: 8px 10px 0px 1px #000000;
+}
