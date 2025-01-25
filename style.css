@@ -10,10 +10,31 @@
 
 
 
-
-
-
-
+/* ------ Buttons ------ */
+/* colored buttons */
+.download-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    border-radius: 50px;
+    background: #afe274;
+    box-shadow: 8px 10px 0px 1px #000000;
+    cursor: pointer;
+}
+/* white buttons */
+.white-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 8px 10px 0px 1px #000000;
+    cursor: pointer;
+}
 
 /* nav style */
 nav{
@@ -48,13 +69,41 @@ a{
 .app-store{
     width: 50px;
 }
-.download-btn{
+
+/* Hero Section  */
+.user-sec{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    padding: 15px;
+    background: #e0f1ce;
+    padding: 10px;
+    width: fit-content;
+    margin: 50px auto;
     border-radius: 50px;
-    background: #afe274;
-    box-shadow: 8px 10px 0px 1px #000000;
+    gap: 15px;
+    font-family: "Darker Grotesque", serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.hero-top{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Darker Grotesque", serif;
+}
+.hero-top h1{
+    font-size: 64px;
+    font-weight: 500;
+}
+.hero-top p{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.hero-top div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
 }
