@@ -132,3 +132,27 @@ a{
 .parent div img{
     width: 200px;
 }
+/* services section */
+.services{
+    font-family: "Darker Grotesque", serif;
+}
+.services-sec{
+    width: 500px;
+    height: fit-content;
+    background: #afe274;
+    box-shadow: 8px 10px 0px 1px #000000;
+}
+.services h3{
+    text-align: center;
+    font-size: 24px;
+   font-weight: 600;
+}
+.services-sec div{
+    display: flex;
+}
+.services-sec div img{
+    width: 100px;
+}
+.services-sec div p{
+    width: 45%;
+}
