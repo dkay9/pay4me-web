@@ -136,23 +136,63 @@ a{
 .services{
     font-family: "Darker Grotesque", serif;
 }
-.services-sec{
-    width: 500px;
-    height: fit-content;
-    background: #afe274;
-    box-shadow: 8px 10px 0px 1px #000000;
-}
 .services h3{
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.services-sec{
+    width: 400px;
+    height: auto;
+    background: #afe274;
+    box-shadow: 8px 10px 0px 1px #000000;
+    padding: 5px 0 10px 15px;
+    border-radius: 10px;
+}
+.services-sec h4,
+.services-sec-2 h4{
+    /* text-align: center; */
+    font-size: 20px;
    font-weight: 600;
+   margin-top: 10px;
 }
 .services-sec div{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
 .services-sec div img{
     width: 100px;
 }
 .services-sec div p{
+    width: 70%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.services-top{
+    display: flex;
+    gap: 20px;
+}
+.services-sec-2{
+    width: 600px;
+    height: auto;
+    background: #afe274;
+    box-shadow: 8px 10px 0px 1px #000000;
+    padding: 5px 5px 10px 15px;
+    border-radius: 10px;
+}
+.services-sec-2 div p{
     width: 45%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.services-sec-2 div img{
+    width: 200px;
+}
+.services-sec-2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
