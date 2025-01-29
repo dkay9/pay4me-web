@@ -143,7 +143,7 @@ a{
 }
 .services-sec{
     width: 400px;
-    height: auto;
+    height: 180px;
     background: #afe274;
     box-shadow: 8px 10px 0px 1px #000000;
     padding: 5px 0 10px 15px;
@@ -163,7 +163,7 @@ a{
     margin-top: 10px;
 }
 .services-sec div img{
-    width: 100px;
+    width: 80px;
 }
 .services-sec div p{
     width: 70%;
@@ -175,24 +175,29 @@ a{
     gap: 20px;
 }
 .services-sec-2{
-    width: 600px;
+    width: 500px;
     height: auto;
     background: #afe274;
     box-shadow: 8px 10px 0px 1px #000000;
-    padding: 5px 5px 10px 15px;
+    padding: 5px 5px 0 15px;
     border-radius: 10px;
 }
 .services-sec-2 div p{
-    width: 45%;
+    width: 55%;
     font-size: 16px;
     font-weight: 500;
 }
 .services-sec-2 div img{
-    width: 200px;
+    width: 130px;
+    /* margin-right: 30px; */
+    position: absolute;
+    right: 20px;
 }
 .services-sec-2 div{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    position: relative;
+    /* gap: 90px; */
 }
