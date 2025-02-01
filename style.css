@@ -228,7 +228,7 @@ a{
     font-size: 40px;
 }
 .gs-one{
-    display: flex;
+    /* display: flex; */
     background: #eef8e3;
     box-shadow: 8px 10px 0px 1px #000000;
     width: 30%;
