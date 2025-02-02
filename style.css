@@ -35,7 +35,25 @@
     box-shadow: 8px 10px 0px 1px #000000;
     cursor: pointer;
 }
-
+.gs-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    border-radius: 50px;
+    background: #afe274;
+    box-shadow: 8px 10px 0px 1px #000000;
+    cursor: pointer;
+    margin: 30px auto;
+}
+.gs-btn-div{
+    background: #d9f1be;
+    width: 50%;
+    padding: 3px;
+    border-radius: 70px;
+    margin: 0 auto;
+}
 /* nav style */
 nav{
     display: flex;
@@ -240,7 +258,7 @@ a{
 .gs-div{
     display: flex;
 }
-.gs-one img{
+.gs-img{
     width: 30px;
     height: 50px;
 }
