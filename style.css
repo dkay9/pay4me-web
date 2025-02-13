@@ -345,3 +345,37 @@ a{
     height: 600px;
     margin-top: 20px;
 }
+/* faqs section */
+.faqs{
+    font-family: "Darker Grotesque", serif;
+    height: 100vh;
+    padding: 20px;
+}
+.faqs h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.faq-sec{
+    width: 100%;
+    background: #fff;
+    box-shadow: 5px 3px 0px 1px #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 30px;
+}
+.faq-sec-cl{
+    width: 100%;
+    background: #afe274;
+    box-shadow: 5px 3px 0px 1px #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 30px;
+}
+.faq-sec p{
+    font-size: 20px;
+    font-weight: 600;
+}
