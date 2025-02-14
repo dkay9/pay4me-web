@@ -379,3 +379,26 @@ a{
     font-size: 20px;
     font-weight: 600;
 }
+.more-faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 10px auto;
+    gap: 5px;
+}
+.more-faq p{
+    font-weight: 600;
+}
+.more-faq span a{
+    font-weight: 600;
+    color: #afe274;
+}
+/* Blog style */
+.blog-sec{
+    height: 100vh;
+    font-family: "Darker Grotesque", serif;
+}
+.blog-card{
+    
+}
