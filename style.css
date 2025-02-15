@@ -434,3 +434,33 @@ a{
     width: 300px;
     margin-top: 15px;
 }
+
+/* Download section  */
+
+.download-container{
+    width: 100%;
+    background: #afe274;
+    box-shadow: 5px 3px 0px 1px #000000;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    /* padding: 30px; */
+    display: flex;
+    font-family: "Darker Grotesque", serif;
+    justify-content: center;
+    align-items: center;
+}
+.d-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-details h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.d-details p{
+    width: 70%;
+    font-size: 18px;
+    margin-top: 10px;
+}
