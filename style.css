@@ -411,7 +411,8 @@ a{
 }
 .blog-card > p{
     font-weight: 600;
-    width: 74%;
+    width: 60%;
+    text-align: left;
 }
 .blog-card-img{
     width: 300px;
