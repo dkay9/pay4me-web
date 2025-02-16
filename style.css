@@ -436,7 +436,9 @@ a{
 }
 
 /* Download section  */
-
+.download-sec{
+    padding: 20px;
+}
 .download-container{
     width: 100%;
     background: #afe274;
@@ -447,8 +449,9 @@ a{
     /* padding: 30px; */
     display: flex;
     font-family: "Darker Grotesque", serif;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
 }
 .d-img{
     display: flex;
@@ -464,3 +467,14 @@ a{
     font-size: 18px;
     margin-top: 10px;
 }
+.d-sec-btn{
+    margin-top: 20px;
+}
+.d-img-1{
+    width: 200px;
+}
+
+.d-img-2{
+    width: 400px;
+}
+
