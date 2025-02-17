@@ -478,3 +478,38 @@ a{
     width: 400px;
 }
 
+/* Footer */
+.footer-wrapper{
+    padding: 20px;
+}
+footer{
+    background-color: #548917;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: "Darker Grotesque", serif;
+    color: #fff;
+}
+footer ul{
+    list-style: none;
+    line-height: 30px;
+}
+footer ul li a{
+    color: #fff;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-paragraph{
+    text-align: center;
+    width: 90%;
+    /* margin-top: 20px; */
+    margin: 20px auto;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;   
+}
+.lic{
+    margin-top: 50px;
+}
