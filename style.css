@@ -492,6 +492,7 @@ footer{
 footer ul{
     list-style: none;
     line-height: 30px;
+    padding-left: 0;
 }
 footer ul li a{
     color: #fff;
